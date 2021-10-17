@@ -1,0 +1,36 @@
+tasks:
+  # hdsky:
+  #   rss:
+  #     url: https://hdsky.me/torrentrss.php?rows=10&tea6=1&tea1=1&tea28=1&tea9=1&linktype=dl&passkey=b208ea50120d7f6283a6fb95c1541e66
+  #     other_fields:
+  #       - link
+  #   nexusphp:
+  #     cookie: 'c_secure_uid=OTE1NzM=; c_secure_pass=9dc135effb591625fb448d33d0c18405; c_secure_ssl=eWVhaA==; c_secure_tracker_ssl=eWVhaA==; c_secure_login=bm9wZQ==; UM_distinctid=17b44188b18502-0802bfc9451f95-7868786b-154ac4-17b44188b19dfb; CNZZDATA5476511=cnzz_eid=202104909-1628933105-https%3A%2F%2Fhdsky.me%2F&ntime=1633570026'
+  #     hr: no
+  #     seeders:
+  #       min: 1
+  #       # max: 3
+  #     # leechers:
+  #       # min: 20
+  #       # max_complete: 0.2
+  #   download: C:/librarys/flexget_amt/flexget/torrents/my-hot-task:
+  ourbits:  
+    rss:
+      url: https://ourbits.club/torrentrss.php?rows=10&passkey=b38c6efd4a1cc05377e3eb9cca8352f2&https=1&linktype=dl
+      other_fields:
+        - link
+    limit_new: 2
+    content_size:
+      min: 12000
+      max: 150000
+      # strict: no
+    nexusphp:
+      cookie: 'ourbits_jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPVVJCSVRTIiwiYXVkIjo0NjA4NywiaWF0IjoxNjMzMzI3NzQ4LCJqdGkiOiJqOEx6dmhwU0NzRUxMV0VQWDBsU2NMV0tNUG53SXBSeE5RSklVRGdxdmxxdG9PVFUiLCJleHAiOjE2MzU5MTk3NDgsInNzbCI6dHJ1ZX0.H0pwPShPECZZwzmkEK4ZDhR_tht2mdpRCNAHFQArJnI; PHPSESSID=omq70teuidoi6ikm4scda47kc3'
+      hr: no
+      seeders:
+        min: 1
+        max: 3
+      leechers:
+        min: 20
+        # max_complete: 0.2
+    download: C:/librarys/flexget_amt/flexget/torrents/

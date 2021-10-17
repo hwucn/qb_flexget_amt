@@ -1,1 +1,2 @@
 # qb_flexget_amt
+该仓库通过检测qb的上传速度来动态使用flexget进行加种，与此同时使用autoremove-torrent进行自动删种
