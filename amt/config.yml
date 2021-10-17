@@ -1,15 +1,11 @@
 my_task:
   client: qbittorrent
   host: http://127.0.0.1:8080
-  username: wuhao
-  password: qbwebui
+  username: ***
+  password: ****
   strategies:
     strategy1:
       all_categories: true
-      # seeding_time: 10800
-      # seed_size:
-      #   limit: 100
-      #   action: remove-old-seeds
       free_space:
         min: 100
         # path: D:/*

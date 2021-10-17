@@ -1,2 +1,4 @@
 # qb_flexget_amt
 该仓库通过检测qb的上传速度来动态使用flexget进行加种，与此同时使用autoremove-torrent进行自动删种
+
+该配置主要为了最大化上传速度，缓解磁盘IO。这里提供了自用的flexget和amt作为参考，其中nexusphp.py请参考https://github.com/Juszoe/flexget-nexusphp
